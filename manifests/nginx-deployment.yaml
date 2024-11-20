@@ -29,7 +29,7 @@ spec:
             - containerPort: 80
               protocol: TCP
           volumeMounts:
-            - mountPath: /var/www/html
+            - mountPath: /usr/share/nginx/html
               name: nginx-cm0
       restartPolicy: Always
       volumes:
